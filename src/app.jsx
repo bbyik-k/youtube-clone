@@ -10,7 +10,6 @@ function App({ youtube }) {
 
   const selectVideo = (video) => {
     setSelectedVideo(video);
-    // console.log(selectedVideo.snippet.title);
   };
 
   const search = (query) => {
